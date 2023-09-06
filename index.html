@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming Field Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AgriTech Platform</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="loginButton">Login</a></li>
+        </ul>
+    </nav>
+    <aside class="notification-box">
+        <div class="notification">
+            <h2>Notification</h2>
+            <p>Important message or notification goes here.</p>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy; 2023 Farming Field Dashboard</p>
+    </footer>
+    <div id="loginPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <p id="errorMessage" class="error-message"></p>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
