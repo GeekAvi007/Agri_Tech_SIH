@@ -1,4 +1,4 @@
-// JavaScript to handle login popup
+
 const loginButton = document.getElementById("loginButton");
 const loginPopup = document.getElementById("loginPopup");
 const closePopup = document.getElementById("closePopup");
